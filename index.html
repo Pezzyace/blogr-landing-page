@@ -15,32 +15,34 @@
   </style>
 </head>
 <body>
-  <nav>
-    <div>
-      <img src="images/logo.svg" alt="">
-    <ul>
-      <li>Product <img src="images/icon-arrow-light.svg" alt=""></li>
-      <li>Company <img src="images/icon-arrow-light.svg" alt=""></li>
-      <li>Contact <img src="images/icon-arrow-light.svg" alt=""></li>
-      <div>
-        <li>Contact</li>
-        <li>Newsletter</li>
-        <li>Linkedin</li>
-      </div>
-    </ul>
-    </div>
-    <div>
-      <button class="login">Login</button>
-      <button class="sign-up">Sign Up</button>
-    </div>
-  </nav>
 
-  <section>
-    <h1>A modern publishing platform</h1>
-    <h4>Grow your audience and build your online brand</h4>
-    <div>
-      <button class="start-btn">Start for free</button>
-      <button class="learn-btn">Learn More</button>
+  <section class="flex flex-col h-full bg-gradient-to-r from-[#ff8f70] to-[#ff3d54]">
+    <nav class="flex justify-between py-12 m-auto w-10/12">
+      <div class="flex">
+        <img src="images/logo.svg" alt="" class="mr-20">
+        <ul class="flex relative">
+          <li class="mr-8 text-white flex items-center text-[13px] hover:underline cursor-pointer">Product <img src="images/icon-arrow-light.svg" alt="" class="ml-2"></li>
+          <li class="mr-8 text-white flex items-center text-[13px] hover:underline cursor-pointer">Company <img src="images/icon-arrow-light.svg" alt="" class="ml-2"></li>
+          <li class="mr-8 text-white flex items-center text-[13px] hover:underline cursor-pointer">Contact <img src="images/icon-arrow-light.svg" alt="" class="ml-2"></li>
+          <div class="hidden absolute">
+            <li>Contact</li>
+            <li>Newsletter</li>
+            <li>Linkedin</li>
+          </div>
+        </ul>
+      </div>
+      <div class="flex">
+        <button class="text-white mr-8">Login</button>
+        <button class="px-8 py-0 rounded-full bg-white text-[#ff3d54]">Sign Up</button>
+      </div>
+    </nav>
+    <div class="mt-20 flex flex-col items-center ">
+      <h1 class="text-[30px] text-white">A modern publishing platform</h1>
+      <h4>Grow your audience and build your online brand</h4>
+      <div>
+        <button class="start-btn">Start for free</button>
+        <button class="learn-btn">Learn More</button>
+      </div>
     </div>
   </section>
   <section class="section-two">

@@ -12,6 +12,14 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    .color{
+      color: hsl(0, 0%, 100%);
+      color: #c8c8cb;
+      color: #4b5862;
+      color: #25252d;
+      color: #ff7a85;
+      color: #1f3f5b;
+    }
   </style>
 </head>
 <body>
@@ -21,9 +29,9 @@
       <div class="flex">
         <img src="images/logo.svg" alt="" class="mr-20">
         <ul class="flex relative">
-          <li class="mr-8 text-white flex items-center text-[13px] hover:underline cursor-pointer">Product <img src="images/icon-arrow-light.svg" alt="" class="ml-2"></li>
-          <li class="mr-8 text-white flex items-center text-[13px] hover:underline cursor-pointer">Company <img src="images/icon-arrow-light.svg" alt="" class="ml-2"></li>
-          <li class="mr-8 text-white flex items-center text-[13px] hover:underline cursor-pointer">Contact <img src="images/icon-arrow-light.svg" alt="" class="ml-2"></li>
+          <li class="mr-8 text-[#c8c8cb] flex items-center text-[13px] hover:underline cursor-pointer hover:text-white">Product <img src="images/icon-arrow-light.svg" alt="" class="ml-2"></li>
+          <li class="mr-8 text-[#c8c8cb] flex items-center text-[13px] hover:underline cursor-pointer hover:text-white">Company <img src="images/icon-arrow-light.svg" alt="" class="ml-2"></li>
+          <li class="mr-8 text-[#c8c8cb] flex items-center text-[13px] hover:underline cursor-pointer hover:text-white">Contact <img src="images/icon-arrow-light.svg" alt="" class="ml-2"></li>
           <div class="hidden absolute">
             <li>Contact</li>
             <li>Newsletter</li>
@@ -33,45 +41,45 @@
       </div>
       <div class="flex items-center">
         <button class="text-white mr-8">Login</button>
-        <button class="px-8 py-3 rounded-full bg-white text-[#ff3d54]">Sign Up</button>
+        <button class="px-8 py-3 rounded-full bg-white text-[#ff3d54] hover:bg-[#ff7a85] hover:text-white">Sign Up</button>
       </div>
     </nav>
     <div class="mt-20 mb-36 flex flex-col items-center ">
       <h1 class="text-[50px] text-white mb-4">A modern publishing platform</h1>
-      <h4 class="text-[16px] text-white mb-8">Grow your audience and build your online brand</h4>
+      <h4 class="text-[16px] text-[#c8c8cb] mb-8">Grow your audience and build your online brand</h4>
       <div class="flex gap-[20px]">
-        <button class="px-8 py-3 rounded-full bg-white text-[#ff3d54]">Start for free</button>
-        <button class="px-8 py-3 rounded-full border border-white border-solid text-[#ff3d54] text-white">Learn More</button>
+        <button class="px-8 py-3 rounded-full bg-white text-[#ff3d54] hover:bg-[#ff7a85] hover:text-white">Start for free</button>
+        <button class="px-8 py-3 rounded-full border border-white border-solid text-[#ff3d54] text-white hover:bg-white hover:text-[#ff3d54]">Learn More</button>
       </div>
     </div>
   </section>
-  <section class="section-two">
-    <h2>Designed for the future</h2>
-    <div>
-      <div class="left">
+  <section class="mt-40">
+    <h2 class="text-[25px] text-[#1f3f5b] text-center font-[700]">Designed for the future</h2>
+    <div class="flex items-center gap-[40px]">
+      <div class="ml-36 w-[40%]">
         <article>
-          <h2>Introducing an extensible editor</h2>
-          <p> Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+          <h2 class="text-[20px] mb-6 text-[#25252d] font-[700]">Introducing an extensible editor</h2>
+          <p class="text-[13px] mb-6 text-[#4b5862]"> Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
             The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
             videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
             change the looks of a blog.</p>
         </article>
         <article>
-          <h2>Robust content management</h2>
-          <p> Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+          <h2 class="text-[20px] mb-6 text-[#25252d] font-[700]">Robust content management</h2>
+          <p class="text-[13px] mb-6 text-[#4b5862]"> Flexible content management enables users to easily move through posts. Increase the usability of your blog 
             by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
         </article>
       </div>
-      <div class="right">
+      <div class="bg-url('images/illustration-editor-desktop.svg')">
       </div>
     </div>
   </section>
 
-  <section class="section-three">
-    <div class="left">State of the Art Infrastructure</div>
+  <section class="flex items-center">
+    <div class="left"></div>
     <div class="right">
-      <h2></h2>
-      <p>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+      <h2 class="text-[30px] text-white mb-8">State of the Art Infrastructure</h2>
+      <p class="text-[20px] mb-6 text-[#4b5862]">With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
         This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
     </div>
   </section>
@@ -80,14 +88,14 @@
     <div class="left"></div>
     <div class="right">
       <article>
-        <h2>Free, open, simple</h2>
-        <p>Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+        <h2 class="text-[25px] mb-12 text-[#25252d]">Free, open, simple</h2>
+        <p class="text-[20px] mb-6 text-[#4b5862">Blogr is a free and open source application backed by a large community of helpful developers. It supports 
           features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
           and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
       </article>
       <article>
-        <h2>Powerful tooling</h2>
-        <p>Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+        <h2 class="text-[25px] mb-12 text-[#25252d]">Powerful tooling</h2>
+        <p class="text-[20px] mb-6 text-[#4b5862">Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
           capable of producing even the most complicated sites.</p>
       </article>
     </div>

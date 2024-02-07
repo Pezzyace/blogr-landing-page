@@ -2,7 +2,7 @@ const hamburger = document.getElementById("hamburger");
 const closeBtn = document.getElementById("close-btn");
 const navigation = document.getElementById("navigation");
 const contact = document.querySelectorAll(".contact");
-const tooltip = document.getElementById("tooltip");
+const tooltip = document.querySelectorAll("tooltip");
 
 
 hamburger.addEventListener("click", () => {
@@ -19,11 +19,7 @@ closeBtn.addEventListener("click", () => {
 
 contact.forEach(contactBtn => {
   contactBtn.addEventListener('click', () => {
-    if(tooltip.style.display = "none") {
-      tooltip.style.display = "flex";
-    }else {
-      tooltip.style.display = "none";
-    }
+    tooltip.style.display = "flex";
   });
 });
 

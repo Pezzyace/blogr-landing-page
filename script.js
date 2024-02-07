@@ -2,7 +2,7 @@ const hamburger = document.getElementById("hamburger");
 const closeBtn = document.getElementById("close-btn");
 const navigation = document.getElementById("navigation");
 const contact = document.querySelectorAll(".contact");
-const tooltip = document.querySelectorAll("tooltip");
+const tooltip = document.querySelector("tooltip");
 
 
 hamburger.addEventListener("click", () => {
